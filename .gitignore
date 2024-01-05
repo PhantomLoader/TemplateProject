@@ -1,0 +1,23 @@
+# Java
+*.class
+hs_err_pid*
+
+# Gradle
+.gradle
+build/
+
+# IntelliJ Idea
+.idea
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Minecraft
+.minecraft/
+
+# Directories
+.DS_Store
+.directory

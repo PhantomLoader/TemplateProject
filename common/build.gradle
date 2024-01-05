@@ -1,0 +1,16 @@
+plugins {
+    // Common module minecraft dependency
+    id 'org.spongepowered.gradle.vanilla' version '0.2.1-SNAPSHOT'
+}
+
+minecraft {
+    // Minecraft dependency
+    version minecraftVersion
+}
+
+dependencies {
+    // Mixin dependency
+    compileOnly 'org.spongepowered:mixin:0.8.5'
+    // Phantom library dependency
+    implementation "io.github.phantomloader:library-common:${phantomVersion}"
+}
