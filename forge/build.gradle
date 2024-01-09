@@ -33,8 +33,8 @@ dependencies {
     // Common module dependency
     implementation project(':common')
     // Phantom library dependency
-    implementation fg.deobf("io.github.phantomloader:library-forge:${phantomVersion}")
-    annotationProcessor fg.deobf("io.github.phantomloader:library-forge:${phantomVersion}")
+    implementation fg.deobf("curse.maven:phantom-loader-958545:5011993")
+    annotationProcessor fg.deobf("curse.maven:phantom-loader-958545:5011993")
     annotationProcessor "io.github.phantomloader:processor-forge:${phantomVersion}"
 }
 

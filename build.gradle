@@ -11,7 +11,12 @@ subprojects {
 
     // Repositories for subprojects
     repositories {
+        // Phantom Loader artifacts are on the maven central repository
         mavenCentral()
+        // Library jars for specific mod loaders can be found on CurseForge or Modrinth
+        maven {
+            url "https://cursemaven.com"
+        }
     }
 
     // Jar manifest attributes
